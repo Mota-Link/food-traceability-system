@@ -1,0 +1,34 @@
+{
+  "APP_NAME": "food-traceability-system",
+  "CUSTOM_RPC_METHODS": {
+    "foodTraceability": {
+      "getTrace": {
+        "description": "Get all trace of the food",
+        "params": [
+          {
+            "name": "at",
+            "type": "Option<BlockHash>",
+            "isOptional": true
+          },
+          {
+            "name": "rawBarCode",
+            "type": "String"
+          },
+          {
+            "name": "owner",
+            "type": "String"
+          },
+          {
+            "name": "locate",
+            "type": "String"
+          },
+          {
+            "name": "nonce",
+            "type": "u8"
+          }
+        ],
+        "type": "String"
+      }
+    }
+  }
+}

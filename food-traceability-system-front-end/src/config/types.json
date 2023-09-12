@@ -1,0 +1,18 @@
+{
+    "Id": {
+        "_enum": [
+            "AccId",
+            "GLN"
+        ],
+        "AccId": "AccountId",
+        "GLN": "Vec<u8>"
+    },
+    "CountUnit": {
+        "_enum": [
+            "Portion",
+            "Microgram",
+            "Milliliter"
+        ]
+    },
+    "License": "Option<Vec<u8>>"
+}

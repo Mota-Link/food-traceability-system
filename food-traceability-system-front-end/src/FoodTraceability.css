@@ -1,0 +1,30 @@
+.FoodTraceabilityContainer {
+    color: brown;
+    border: 1px solid gray;
+    border-radius: 7px;
+    padding: 40px 150px;
+    box-sizing: border-box;
+    margin: 0px 12px;
+    width: 100%;
+}
+
+/* .customLabelInput {} */
+
+.label {
+    width: 105px;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+.btnContainer {
+    /* margin-top: 10px; */
+    border-right: 1px dashed gray;
+}
+
+.menuButton {
+    align-items: center;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
